@@ -1,0 +1,108 @@
+.header 
+	background: url('../img/background_header.jpg') center (center/cover) no-repeat
+	min-height: 680px
+	padding-top: 23px
+	padding-bottom: 18px
+
+	&__top
+		display: flex	
+		justify-content: space-between
+		align-items: center
+		img
+			transform: scale(1.2)
+		.logo
+			width: 96px
+			height: 100px
+	&__nav
+		margin-left: -60px
+	&__menu 
+		display: flex
+		justify-content: center
+		list-style-type: none
+		flex-grow: 2
+		&-item
+			padding: 8px
+			text-align: center
+			border-right: dotted 1px $white_color
+			transition: 0.5s right
+			&:last-child
+				border-right: none
+			
+		&-link
+			font-size: 15px
+			font-weight: 400
+			color: $white_color
+			text-decoration: none
+			transition: 0.5s
+			cursor: pointer
+			display: block
+			width: 100%
+			height: 100%
+			&:hover 
+				color: $orange_color
+				
+	&__questions 
+		display: flex
+		justify-content: center
+		text-align: right
+	&__text
+		color: $white_color
+		font-weight: 300
+		font-size: 14px
+	&__phone
+		color: $white_color
+		font-size: 19px
+		font-weight: 700
+		text-decoration: none
+		&:active
+			color: $white_color
+			text-decoration: none
+	&__contacts
+		display: flex
+		flex-direction: column
+		justify-content: center
+		margin-right: 1.2em
+	&__divider
+		display: flex
+		justify-content: space-between
+		align-items: center
+		margin: 0 auto
+		margin-top: 38px
+		&-item
+			width: 48%
+			height: 1px
+			background-color: $white_color	
+			&:nth-child(2)
+				background-color: $white_color		
+				border-radius: 100%
+				width: 9px
+				height: 9px
+	&__items 
+		display: flex
+		justify-content: space-between
+		margin-top: 27px
+	&__item
+		max-width: 262px
+	.img_wrapper 
+		margin: 0 auto
+		height: 63px
+	&__item-img
+		display: block
+		margin: 0 auto
+	&__item-content
+		color: $white_color
+		text-align: center
+		font-size: 16px
+		font-weight: 300
+		line-height: 22px
+
+	
+		
+			
+	
+
+	
+
+	
+
+	

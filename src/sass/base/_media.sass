@@ -1,0 +1,590 @@
+@media (max-width: 1158px)
+    .container
+        width: 991px
+    .header
+        &__phone
+            font-size: 14px
+        &__nav 
+            margin-left: -40px
+        &__item-content
+            font-size: 10px
+        &__contacts
+            margin-right: 8px
+        &__item-content
+            font-size: 13px    
+    .contact-button
+        &_min
+            width: 150px
+            height: 40px
+    .advantages__item
+        max-width: 430px  
+@media (max-width: 1020px)
+    .container
+        width: 950px
+    .header 
+        &__top
+            justify-content: center
+            img
+                transform: scale(1.1)
+            .contact-button
+                width: 125px
+        &__nav 
+            margin-left: 0
+        &__menu
+            &-link
+                font-size: 13px
+        &__item
+            width: 210px
+            &-content
+                font-size: 12px 
+    .prices
+        &__item
+            max-height: 377px
+        &__items
+            justify-content: center
+        &__rates
+            font-size: 21px
+        &__descr
+            margin-top: 8px
+@media (max-width: 991px)
+    .container
+        width: 768px
+    .header
+        &__top
+            img
+                transform: scale(1)
+        &__menu
+            padding-left: 7px
+            &__item
+                max-height: 12px
+            &-link
+                font-size: 12px
+        &__questions
+            flex-direction: column
+            justify-content: space-between
+        &__phone
+            display: none
+        &__item-content
+            font-size: 12px
+        &__contacts
+            margin-right: 0
+        &__text
+            display: none
+    .title
+        &_main
+            margin-top: 18px
+            font-size: 22px
+        &_two
+            font-size: 45px
+        &_three
+            font-size: 25px
+    .advantages
+        padding: 25px 0 25px 0
+        height: auto
+        &__items
+            margin-top: 25px
+            max-width: 768px
+            margin: 10px
+        &__item
+            max-width: 380px
+    .questions__block
+        width: 100%
+    .input-wrapper__area
+        width: 97%
+    .prices
+        &__promo
+            font-size: 19px
+        &__items
+            flex-wrap: wrap
+            justify-content: space-around
+            margin-top: 0
+        &__item
+            margin-top: 20px
+            min-width: 264px
+        &__rates
+            font-size: 28px
+        &__descr
+            margin-top: 14px
+    .feedback
+        &__slider
+            width: 70%
+            margin: 0 auto
+        .slick-slide
+            opacity: 1
+    .slick-dots
+        list-style: none
+        display: flex
+        justify-content: space-between
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        margin-left: -20px
+        button
+            background-color: $orange-color
+            border-radius: 100%
+            color: $orange-color
+            margin-left: 20px
+            border: none
+            outline: none
+        .slick-active
+            button
+                background-color: darken($orange-color,40%)
+                color: darken($orange-color,40%)
+
+@media (max-width: 903px)
+    .our-job
+        &__text
+            width: 750px
+            font-size: 1em
+        button
+            background-color: $orange-color
+            color: $orange-color
+            border-radius: 100%
+            border: none
+            margin-right: 10px
+            &:focus
+                outline: none
+    .feedback
+        &__slider
+            width: 80%
+
+@media (max-width: 844px)
+    #contact-form
+        height: 280px
+        width: 100%
+
+        .contact-button_max
+            margin-top: 15px
+            &::before
+                top: 17px
+    .scheme
+        height: 650px   
+    .contact__wrapper
+        bottom: 59%
+    .input-wrapper
+        padding-top: 40px
+        flex-direction: column
+        input
+            width: 75%
+        &__area
+            width: 75%
+            margin-top: 13px
+    .questions
+        min-height: 590px
+    .questions__form
+        min-height: 440px
+    .scheme 
+        height: 1140px
+    .scheme__items 
+        flex-direction: column
+        align-items: center
+    .feedback
+        &__slider
+            width: 65%
+            margin: 0 auto
+        &__content
+            width: 100%
+            
+@media (max-width: 804px)
+    .questions
+        &__block
+            max-width: 80%
+        button
+            width: 80%
+
+@media (max-width: 785px)
+    .header
+        &__menu
+            margin-right: 4px
+            padding-left: 4px
+            &-link
+                font-size: 12px
+        &__phone
+            display: none
+        &__item
+            width: 200px
+    .contact-button_min
+        width: 140px
+        height: 45px
+        font-size: 12px
+
+@media (max-width: 768px)
+    .container
+        width: 576px
+    .header
+        &__top
+            justify-content: space-between
+            max-width: 70%
+        &__nav 
+            position: fixed
+            flex-direction: column
+            top: 0
+            left: -100%
+            width: 55%
+            height: 100vh
+            padding-left: 10px
+            background-color: $blue_transparent_color
+            transition: 0.4s all
+            z-index: 5
+        &__menu
+            flex-direction: column
+            position: absolute
+            top: 50%
+            left: 25%
+            transform: translateY(-50%)
+            &-item
+                width: 100%
+                text-align: center
+                border-right: none
+            &-link
+                display: block
+                width: 100%
+                height: 100%
+                padding-top: 25px
+                font-size: 22px
+
+        &__nav_active
+            left: 0
+            
+        &__questions
+            flex-direction: row
+        &__contacts
+            margin-right: 10px
+    
+        &__items
+            flex-wrap: wrap
+            justify-content: space-around
+        &__item
+            margin-top: 20px
+            width: 200px
+            &-content
+                font-size: 13px
+                
+        .contact-button_max
+            width: 170px
+            height: 65px
+            font-size: 15px
+            font-weight: 400
+    .hamburger
+        display: block
+        width: 36px
+        height: 36px
+        position: fixed
+        right: 50px
+        z-index: 4
+        span
+            display: block
+            width: 100%
+            height: 3px
+            background-color: $orange_color
+            margin-bottom: 4px
+            transition: 0.5s all
+    .hamburger_active
+        span 
+            margin-bottom: -2px 
+            &:nth-child(1)
+                transform: translateY(3px) rotate(-45deg)
+            &:nth-child(2)
+                display: none
+            &:nth-child(3)
+                transform: translateY(3px) rotate(45deg) 
+        .title
+            &_main
+                font-size: 24px
+                margin-top: 18px
+            &_two
+                font-size: 44px
+            &_three
+                font-size: 20px
+                margin-top: 15px
+    .advantages
+        &__items
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            width: 530px
+        &__item
+            max-width: 520px
+            margin: 0
+            margin-top: 15px
+        .title
+            &_advantages
+                margin-bottom: 5px
+    .our-job
+        &__text
+            width: 500px
+        &__items
+            flex-direction: column
+            justify-content: space-around
+            align-items: center
+        &__item    
+            max-width: 80%
+        &__img
+            margin-top: 20px
+        &__descr
+            margin-top: 9px
+
+@media (max-width: 740px)
+    .our-job
+        &__items
+            max-width: 500px
+        &__text
+            width: 400px
+            margin: 0 auto
+            margin-top: 10px
+
+@media (max-width: 735px)
+    .advantages
+        &__item
+            width: 510px
+        &__descr
+            margin-left: 8px
+                
+    .agent
+        &__text
+            max-width: 400px
+            font-size: 22px
+    .prices
+        &__items
+            flex-direction: column
+        button
+            margin-top: 15px
+            height: 40px
+        &__item-header
+            margin-top: 20px
+
+@media (max-width: 650px)
+    .prices
+        &__promo
+            max-width: 320px
+        &__items
+            max-width: 85%
+
+@media (max-width: 640px)
+    .feedback
+        &__content
+            height: 310px
+        .slick-dots
+            margin-top: -15px
+
+@media (max-width: 596px)
+    .container 
+        width: 420px   
+    .header
+        &__top
+            justify-content: space-between
+        .contact-button_max
+            width: 180px
+            height: 50px
+            font-size: 15px
+            font-weight: 400
+    .advantages
+        padding: 0
+        padding-top: 15px
+        margin: 0
+        &__items
+            height: 100%
+            max-width: 420px
+            margin: 0
+        &__item
+            max-width: 460px
+            text-align: justify
+        &__item
+            margin-bottom: 10px
+        &__descr
+            margin-left: 8px
+    .title
+        &_advantages
+            margin-bottom: 5px
+            font-size: 15px
+        &_section
+            font-size: 19px
+    .divider
+        margin-right: 50%
+        transform: translateX(50%)
+    .our-job
+        padding: 0
+        padding: 15px 0 20px 0
+        &__text
+            width: 80%
+            margin-top: 10px
+            font-size: 16px
+        &__items
+            max-width: 420px
+            flex-direction: column
+            align-items: center
+            justify-content: space-between
+            margin-top: 15px
+        &__item
+            max-width: 80%
+    .prices
+        &__item
+            width: 250px
+        &__rates
+            font-size: 22px
+        &__descr
+            margin-top: 8px
+    .footer
+        &__info
+            display: none
+        &-title
+            display: none
+        .header__text
+            font-size: 14px
+            font-weight: 700
+
+@media (max-width: 550px)
+    .header 
+        &__menu
+            top: 0
+            transform: translateY(0)
+    .advantages
+        &__items
+            width: 370px
+            justify-content: space-between
+        &__item
+            width: 90%
+            text-align: justify
+    .title
+        &_section
+            font-size: 15px
+    .agent
+        &__text
+            font-size: 12px
+            max-width: 310px
+        .title_agent
+            font-size: 20px
+    .managment
+        &__text
+            margin-top: 15px
+            max-width: 310px
+            font-size: 12px
+    .feedback
+        &__text
+            margin-top: 12px
+        &__slider
+            height: 290px
+            width: 100% 
+        &__descr
+            font-size: 15px
+        .slick-dots
+            margin-top: 5px
+            margin-left: -23px
+            button
+                margin-left: 23px
+                width: 25px
+                height: 25px
+    .footer
+        min-height: 250px
+        &__contacts
+            justify-content: space-around
+
+        &__other
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            height: 80px
+
+
+@media (max-width: 419px)
+    .container
+        width: 360px
+    .header
+        .hamburger 
+            top: 8%
+        .contacts
+            display: none
+        &__menu
+            &-link
+                font-size: 14px
+    .prices
+        padding: 0
+        padding-top: 33px
+        padding-bottom: 29px
+        &__promo
+            font-size: 15px
+            max-width: 280px
+    .contact
+        .title 
+            margin-bottom: 90px
+        &__wrapper
+            margin-bottom: 8%
+        #contact-form
+            height: 360px
+        .input-wrapper
+            padding-top: 50px
+        .contact-button_contact
+            width: 80%
+            &::after
+                display: none
+
+    .feedback
+        height: 420px
+    .slick-dots
+        margin-top: 10px
+        margin-left: -15px
+@media (max-width: 398px)
+    .container 
+        width: 320px
+    .title_section
+        font-size: 12px
+    .header
+        &__top
+        justify-content: space-between
+        .hamburger
+            right: 10%
+        .title
+            &_main
+                font-size: 14px
+                margin-top: 12px
+            &_two
+                font-size: 19px
+                margin-top: 10px
+            &_three
+                font-size: 14px
+    .advantages
+        &__items
+            width: 320px
+        &__item
+            width: 280px
+        &__descr
+            font-size: 12px
+            line-height: 17px
+            margin-left: 4px
+        .title
+            &_advantages
+                font-size: 12px
+                margin-bottom: 4px
+    .feedback
+        height: 395px
+        &__slider
+            margin-top: -15px
+        &__content
+             height: 310px
+        .divider 
+            display: none
+        .slick-slide
+            height: 310px
+        .slick-dots
+            margin-top: 25px
+            margin-left: -26px
+            button
+                width: 15px
+                height: 15px
+    .footer
+        &__contacts
+            max-width: 300px
+        &__other
+             max-width: 300px
+    @media (max-width: 340px)
+        .slick-dots
+            margin-top: 11px    
+            margin-left: -32px
+
+    
+
+
+
+
+
+                
